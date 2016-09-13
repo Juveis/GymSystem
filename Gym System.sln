@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms GYM System", "Gym System\Forms GYM System.csproj", "{6C0848D3-1BDA-4024-AFE2-76031B53D9F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PunchSystem", "PunchSystem\PunchSystem.csproj", "{C1083F34-6072-47B2-8617-E6240F3AAEA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C0848D3-1BDA-4024-AFE2-76031B53D9F1}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0848D3-1BDA-4024-AFE2-76031B53D9F1}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{6C0848D3-1BDA-4024-AFE2-76031B53D9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0848D3-1BDA-4024-AFE2-76031B53D9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0848D3-1BDA-4024-AFE2-76031B53D9F1}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0848D3-1BDA-4024-AFE2-76031B53D9F1}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{6C0848D3-1BDA-4024-AFE2-76031B53D9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0848D3-1BDA-4024-AFE2-76031B53D9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0848D3-1BDA-4024-AFE2-76031B53D9F1}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0848D3-1BDA-4024-AFE2-76031B53D9F1}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{C1083F34-6072-47B2-8617-E6240F3AAEA5}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{C1083F34-6072-47B2-8617-E6240F3AAEA5}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{C1083F34-6072-47B2-8617-E6240F3AAEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1083F34-6072-47B2-8617-E6240F3AAEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1083F34-6072-47B2-8617-E6240F3AAEA5}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1083F34-6072-47B2-8617-E6240F3AAEA5}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{C1083F34-6072-47B2-8617-E6240F3AAEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1083F34-6072-47B2-8617-E6240F3AAEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1083F34-6072-47B2-8617-E6240F3AAEA5}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{C1083F34-6072-47B2-8617-E6240F3AAEA5}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://juveis.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Gym\u0020System\\Forms\u0020GYM\u0020System.csproj
+		SccProjectName1 = Gym\u0020System
+		SccLocalPath1 = Gym\u0020System
+		SccProjectUniqueName2 = Core\\Core.csproj
+		SccProjectName2 = Core
+		SccLocalPath2 = Core
+		SccProjectUniqueName3 = PunchSystem\\PunchSystem.csproj
+		SccProjectName3 = PunchSystem
+		SccLocalPath3 = PunchSystem
+	EndGlobalSection
+EndGlobal

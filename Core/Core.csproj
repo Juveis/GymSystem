@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE7056FB-8EAE-426D-9678-73ED9CFF8CE8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Mongo.Entity, Version=1.0.1.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Mongo.Entity.1.0.1.5\lib\net40\Mongo.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson, Version=1.10.1.73, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\mongocsharpdriver.1.10.1\lib\net35\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=1.10.1.73, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\mongocsharpdriver.1.10.1\lib\net35\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Accounting\AccountStatus.cs" />
+    <Compile Include="Entities\Accounting\AccountsReceivable.cs" />
+    <Compile Include="Entities\Employees\Employee.cs" />
+    <Compile Include="Entities\Employees\EmployeeLogs.cs" />
+    <Compile Include="Entities\Billing\Bill.cs" />
+    <Compile Include="Entities\Billing\CashRegister.cs" />
+    <Compile Include="Entities\Billing\BillDetail.cs" />
+    <Compile Include="Entities\Billing\Payments\Payments.cs" />
+    <Compile Include="Entities\Billing\Reconcile.cs" />
+    <Compile Include="Entities\Billing\SalesByUsers.cs" />
+    <Compile Include="Entities\Company\CompanyInfo.cs" />
+    <Compile Include="Entities\Country.cs" />
+    <Compile Include="Entities\Members\AnthropometricMeasurements.cs" />
+    <Compile Include="Entities\Members\Measures.cs" />
+    <Compile Include="Entities\Members\Member.cs" />
+    <Compile Include="Entities\Members\CustomerReport.cs" />
+    <Compile Include="Entities\Members\Enums\MembershipType.cs" />
+    <Compile Include="Entities\Employees\Trainer.cs" />
+    <Compile Include="Entities\Inventory\Area.cs" />
+    <Compile Include="Entities\Inventory\BasicInfo.cs" />
+    <Compile Include="Entities\Inventory\Category.cs" />
+    <Compile Include="Entities\Inventory\Equipment.cs" />
+    <Compile Include="Entities\Inventory\Furniture.cs" />
+    <Compile Include="Entities\Inventory\Product.cs" />
+    <Compile Include="Entities\Inventory\Stock.cs" />
+    <Compile Include="Entities\Inventory\StockType.cs" />
+    <Compile Include="Entities\Inventory\Supplier.cs" />
+    <Compile Include="Entities\Members\MembershipsPackages.cs" />
+    <Compile Include="Entities\Members\Packages.cs" />
+    <Compile Include="Entities\Prints.cs" />
+    <Compile Include="Entities\Programs\Program.cs" />
+    <Compile Include="Initializer.cs" />
+    <Compile Include="Entities\Person.cs" />
+    <Compile Include="Entities\Security\Authentication.cs" />
+    <Compile Include="Entities\Security\Encrypt.cs" />
+    <Compile Include="Entities\Security\Enums\TipoUsuario.cs" />
+    <Compile Include="Entities\Memberships\Membership.cs" />
+    <Compile Include="Entities\Billing\Payments\MembershipPayments.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities\Members\AccessRegister.cs" />
+    <Compile Include="Entities\Security\Modulos.cs" />
+    <Compile Include="Entities\Security\Usuario.cs" />
+    <Compile Include="Validation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Inactive.png" />
+    <Content Include="Resources\user-3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
